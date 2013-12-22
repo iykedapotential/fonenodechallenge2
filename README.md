@@ -10,6 +10,7 @@ class stud
 if(isset($_POST['send']))
 {
     $ratings = trim($_POST['ratings']);
+    
     $nos = explode(' ',$ratings);
     $std = array();
     $candies = 0;
